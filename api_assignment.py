@@ -14,7 +14,7 @@ class ApiTests:
             print("Success")
         result = res.json()
         print("Response Data:")
-        print(json.dumps(result, indent=4))  # Pretty print JSON response
+        print(json.dumps(result, indent=4))
         if isinstance(result, list):
             print("Successfully validated")
 
